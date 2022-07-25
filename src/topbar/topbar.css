@@ -1,0 +1,40 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.topbar-left>* {
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin: 0 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
