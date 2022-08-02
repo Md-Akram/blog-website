@@ -3,14 +3,16 @@ import './single.css'
 const Single = () => {
     return (
         <div className="single">
-            <img src="" alt="" className="single-img" />
-            <h1 className="single-title">
-                Lorem ipsum dolor sit amet.
+            <img src="https://media.istockphoto.com/photos/working-home-concept-picture-id1247171756?k=20&m=1247171756&s=612x612&w=0&h=6vdgZJgzGNG1wBvcHBr8MASQrW8vi3k0CEp87CbUGqA=" alt="" className="single-img" />
+            <div className="title-row">
+                <h1 className="single-title">
+                    Lorem ipsum dolor sit amet.
+                </h1>
                 <div className="single-edit">
                     <i class="far fa-edit"></i>
                     <i class="far fa-trash-alt"></i>
                 </div>
-            </h1>
+            </div>
             <div className="single-info">
                 <span className="single-author">
                     Author: <b>akram</b>
