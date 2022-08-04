@@ -1,0 +1,57 @@
+#file-input {
+    display: none;
+}
+
+.settings {
+    width: 90%;
+    margin: 20px auto;
+
+
+}
+
+.settings-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update-title {
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.delete-title {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-profile-picture {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settings-profile-picture>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.picture-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
