@@ -1,4 +1,4 @@
-.login {
+.register {
     width: 50%;
     margin: 50px auto;
     min-width: 300px;
@@ -8,30 +8,30 @@
     justify-content: center;
 }
 
-.login-title {
+.register-title {
     font-size: 50px;
 }
 
-.login-form {
+.register-form {
     display: flex;
     flex-direction: column;
 
 }
 
-.login-form>label {
+.register-form>label {
     margin: 10px 0;
     font-size: 20px;
 }
 
-.login-form>input {
+.register-form>input {
     padding: 10px;
     border: none;
     font-size: 20px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid black;
 }
 
-.login-button,
-.login-register-button {
+.register-button,
+.register-login-button {
     margin-top: 20px;
     cursor: pointer;
     border: none;
